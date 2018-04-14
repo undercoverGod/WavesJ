@@ -21,6 +21,7 @@ public class NodeExample {
         byte[] publicKey = alice.getPublicKey();
         // and its address
         String address = alice.getAddress();
+        System.out.println(address);
 
         // Create a Node ("https://testnode1.wavesnodes.com" by default, or you can pass another URL here)
         Node node = new Node();
